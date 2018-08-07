@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Scotch VuePress',
-    description: "A demo documentation using VuePress",
+    title: 'Documentation TEST Numigi',
+    description: "La documentation TEST de Numigi avec VuePress",
     themeConfig:{
         nav: [
             { text: 'COUNTER', link: '/counter/' },
