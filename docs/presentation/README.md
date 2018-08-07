@@ -1,5 +1,5 @@
 ---
-title: Guide
+title: Presentation
 ---
 
 ## Qui est Numigi

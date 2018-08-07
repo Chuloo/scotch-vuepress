@@ -20,7 +20,14 @@ module.exports = {
               children: [
                   '/guide/guide',
                   '/guide/api'
-              ]
+              ],
+              {
+                title: 'Presentation',
+                collapsable: false,
+                children: [
+                  '/presentation/presentation'
+                ]
+              }
             }
           ]
     }
