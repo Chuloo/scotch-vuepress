@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://www.vetiq.org/wp-content/uploads/2018/04/NUMIGI-_logo-color-01.png
-actionText: See Counter App
+actionText: Lire la documentation
 actionLink: /counter/counter-app
 features:
 - title: Embedded Vue Counter
