@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Documentation TEST Numigi',
-    description: "La documentation TEST de Numigi avec VuePress",
+    title: 'Numigi Test Docs',
+    description: "La documentation Test de Numigi avec VuePress",
     themeConfig:{
         nav: [
             { text: 'COUNTER', link: '/counter/' },
