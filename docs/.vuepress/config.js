@@ -14,7 +14,7 @@ module.exports = {
             children: [
               '/presentation/presentation'
             ]
-          }
+          },
             {
               title: 'Counter',
               collapsable: false,
