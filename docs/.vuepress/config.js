@@ -3,11 +3,18 @@ module.exports = {
     description: "La documentation Test de Numigi avec VuePress",
     themeConfig:{
         nav: [
+            { text: 'PRESENTATION', link: '/presentation/' },
             { text: 'COUNTER', link: '/counter/' },
             { text: 'GUIDE', link: '/guide/' },
-            { text: 'PRESENTATION', link: '/presentation/' },
         ],
         sidebar: [
+          {
+            title: 'Presentation',
+            collapsable: false,
+            children: [
+              '/presentation/presentation'
+            ]
+          }
             {
               title: 'Counter',
               collapsable: false,
@@ -20,14 +27,7 @@ module.exports = {
               children: [
                   '/guide/guide',
                   '/guide/api' ]
-            },
-              {
-                title: 'Presentation',
-                collapsable: false,
-                children: [
-                  '/presentation/presentation'
-                ]
-              }
+            }
           ]
     }
 }
