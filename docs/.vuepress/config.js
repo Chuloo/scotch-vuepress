@@ -5,22 +5,21 @@ module.exports = {
         nav: [
             { text: 'COUNTER', link: '/counter/' },
             { text: 'GUIDE', link: '/guide/' },
+            { text: 'PRESENTATION', link: '/presentation/' },
         ],
         sidebar: [
             {
               title: 'Counter',
               collapsable: false,
               children: [
-                '/counter/counter-app'
-              ]
+                '/counter/counter-app' ]
             },
             {
               title: 'API Guide',
               collapsable: false,
               children: [
                   '/guide/guide',
-                  '/guide/api'
-              ]
+                  '/guide/api' ]
             },
               {
                 title: 'Presentation',
@@ -29,7 +28,6 @@ module.exports = {
                   '/presentation/presentation'
                 ]
               }
-            }
           ]
     }
 }
